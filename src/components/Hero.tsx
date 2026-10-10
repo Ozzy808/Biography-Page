@@ -12,7 +12,7 @@ function Hero() {
             Hello, I'm
           </p>
           <p className="mb-8 text-sm font-medium text-blue-800">
-            HLOKOMELO INNOCENT MOTHAPO, a junior software developer passionate about building useful applications and learning new technologies. 
+             
           </p>
           <h1 className="text-3xl font-bold sm:text-5xl md:text-4xl">
             HLOKOMELO INNOCENT MOTHAPO
@@ -30,7 +30,7 @@ function Hero() {
             </a>
             <a
               href="#contact"
-              className="rounded-lg border border-blue-200 px-5 py-3 text-blue-700 transition hover:border-blue-300 hover:bg-blue-50"
+              className="rounded-lg border border-black bg-black px-5 py-3 text-white transition hover:bg-gray-800"
             >
               Contact Ozzy
             </a>
@@ -44,6 +44,51 @@ function Hero() {
             alt="Ozzy Mothapo"
             className="relative h-72 w-72 rounded-full object-cover shadow-xl ring-4 ring-white"
           />
+        </div>
+      </div>
+
+      <div className="mt-12 grid gap-5 md:grid-cols-2">
+        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-950 shadow-lg shadow-blue-100/40">
+          <div className="flex items-center gap-2 border-b border-slate-800 bg-slate-900 px-4 py-2">
+            <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
+            <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
+            <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
+            <span className="ml-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-400">
+              JavaScript
+            </span>
+          </div>
+          <pre className="overflow-x-auto p-4 text-sm leading-6 text-slate-200">
+            <code>{`const developer = {
+  name: 'Ozzy',
+  role: 'Frontend Developer',
+  focus: ['React', 'TypeScript', 'UI/UX'],
+  build: () => 'Clean experiences'
+}`}</code>
+          </pre>
+        </div>
+
+        <div className="overflow-hidden rounded-2xl border border-blue-100 bg-white shadow-lg shadow-blue-100/60">
+          <div className="flex items-center gap-2 border-b border-blue-100 bg-blue-50 px-4 py-2">
+            <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
+            <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
+            <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
+            <span className="ml-3 text-xs font-medium uppercase tracking-[0.2em] text-blue-700">
+              TypeScript
+            </span>
+          </div>
+          <pre className="overflow-x-auto p-4 text-sm leading-6 text-slate-700">
+            <code>{`type Stack = {
+  language: 'TypeScript';
+  framework: 'React';
+  focus: 'User experience';
+};
+
+const stack: Stack = {
+  language: 'TypeScript',
+  framework: 'React',
+  focus: 'User experience'
+};`}</code>
+          </pre>
         </div>
       </div>
     </section>

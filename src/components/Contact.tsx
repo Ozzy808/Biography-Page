@@ -12,8 +12,13 @@ function Contact() {
                 <form
                     action="https://www.email.Innocent.Mothapo100@gmail.com"
                     method="POST"
-                    className="space-y-3 rounded-xl border border-blue-100 bg-white p-4 shadow-sm"
+                    className="space-y-3 rounded-xl border border-pink-200 bg-white p-4 shadow-sm shadow-pink-100"
                 >
+                    <div className="mb-3 flex items-center justify-center gap-2 text-pink-500">
+                        <span className="h-2.5 w-2.5 rounded-full bg-pink-500" />
+                        <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
+                        <span className="h-2.5 w-2.5 rounded-full bg-pink-300" />
+                    </div>
                     <input type="hidden" name="_captcha" value="false" />
                     <input
                         type="hidden"
@@ -73,14 +78,14 @@ function Contact() {
 
                         <div className="flex items-center gap-2.5">
                             <a
-                                href="www.email.Innocent.Mothapo100@gmail.com"
+                                href="https://github.com/Ozzy808"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="GitHub"
                                 className="flex h-9 w-9 items-center justify-center rounded-full border border-blue-200 bg-white transition hover:border-blue-300 hover:bg-blue-50"
                             >
                                 <img
-                                    src="https://github.com/Ozzy808"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                                     alt="GitHub"
                                     className="h-4 w-4"
                                 />

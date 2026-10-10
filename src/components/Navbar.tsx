@@ -6,6 +6,7 @@ function Navbar() {
           HLOKOMELO INNOCENT MOTHAPO
         </a>
         <div className="flex gap-6 text-sm">
+          <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
