@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-ink: #1f1d5c;
+  --color-paper: #fbf9ff;
+  --color-sun: #ffd84d;
+  --color-lilac: #cdbdff;
+  --color-mint: #7fe3b8;
+  --color-pink: #ff6b9d;
+
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 4px;
+  }
+}
+ 
