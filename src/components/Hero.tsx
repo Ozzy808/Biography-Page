@@ -8,8 +8,8 @@ function Hero() {
         <p className="mb-3 text-sm font-semibold uppercase tracking-widest">
           Hello, I'm
         </p>
-        <p className="mb-4 text-sm text-gray-500">
-          React + TypeScript + Vite + Tailwind CSS + pnpm
+        <p className="mb-8 text-sm text-red-600">
+          Ozzy
         </p>
         <h1 className="text-3xl font-bold sm:text-5xl md:text-4xl">
           HLOKOMELO INNOCENT MOTHAPO
