@@ -16,28 +16,52 @@ const skills = [
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
     },
     {
+        name: 'Java',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+    },
+    {
+        name: 'C++',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
+    },
+    {
+        name: 'Python',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+    },
+    {
+        name: 'PHP',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+    },
+    {
+        name: 'XAMPP',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg',
+    },
+    {
+        name: 'Linux',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+    },
+    {
+        name: 'PostgreSQL',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+    },
+    {
+        name: 'Tailwind CSS',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
+    },
+    {
         name: 'CSS',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
-    },
-    {
-        name: 'Dart',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
-    },
-    {
-        name: 'Flutter',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg',
     },
     {
         name: 'VS Code',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg',
     },
     {
-        name: 'C#',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+        name: 'Git',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
     },
     {
-        name: 'ASP.NET',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
+        name: 'GitHub',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
     },
 ]
 

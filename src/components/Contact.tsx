@@ -78,6 +78,47 @@ function Contact() {
 
                         <div className="flex items-center gap-2.5">
                             <a
+                                href="mailto:Innocent.Mothapo100@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Email"
+                                className="flex h-9 w-9 items-center justify-center rounded-full border border-blue-200 bg-white transition hover:border-blue-300 hover:bg-blue-50"
+                            >
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+                                    alt="Email"
+                                    className="h-4 w-4"
+                                />
+                            </a>
+                            <a
+                                href="https://www.tiktok.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="TikTok"
+                                className="flex h-9 w-9 items-center justify-center rounded-full border border-blue-200 bg-white transition hover:border-blue-300 hover:bg-blue-50"
+                            >
+                                <svg
+                                    aria-hidden="true"
+                                    viewBox="0 0 24 24"
+                                    className="h-4 w-4 fill-current text-slate-900"
+                                >
+                                    <path d="M19.6 7.2a6.4 6.4 0 0 1-4.1-1.5v8.1a6.2 6.2 0 1 1-6.2-6.2c.4 0 .8 0 1.2.1v3.4a2.8 2.8 0 1 0 1.6 2.5V2h3.4a6.4 6.4 0 0 0 4.1 4.1v1.1Z" />
+                                </svg>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/ozzy.mothapo"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Facebook"
+                                className="flex h-9 w-9 items-center justify-center rounded-full border border-blue-200 bg-white transition hover:border-blue-300 hover:bg-blue-50"
+                            >
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+                                    alt="Facebook"
+                                    className="h-4 w-4"
+                                />
+                            </a>
+                            <a
                                 href="https://github.com/Ozzy808"
                                 target="_blank"
                                 rel="noreferrer"
