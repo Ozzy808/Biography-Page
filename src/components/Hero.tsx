@@ -15,7 +15,7 @@ function Hero() {
              
           </p>
           <h1 className="text-3xl font-bold sm:text-5xl md:text-4xl">
-            HLOKOMELO INNOCENT MOTHAPO
+            <strong>HLOKOMELO INNOCENT MOTHAPO</strong>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-600">
             I am a junior software developer who enjoys building useful
